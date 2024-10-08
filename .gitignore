@@ -130,6 +130,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# local environment
+e2eenv/
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -153,6 +156,12 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# VSCode
+.vscode/
+
+# Jupyter notebooks checkpoint files
+.ipynb_checkpoints/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
